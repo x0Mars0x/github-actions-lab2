@@ -13,6 +13,8 @@ jobs:
             py-version: 3.10
           - os: macos-14
             py-version: 3.10
+          - os: macos-14
+            py-version: 3.12            
     runs-on: ${{ matrix.os }}
     steps:
     - name: Set up Python
